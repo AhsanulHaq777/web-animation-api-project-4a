@@ -2,8 +2,6 @@ import React from 'react';
 import './App.css';
 import useWebAnimations from "@wellyshen/use-web-animations";
 import audiances from './audiacne.gif'; 
-import horse from './horseriding.gif';
-import horse2 from './horsehah.gif';
 import horse3 from './horana.gif'
 import horse4 from './horee.gif';
 import horsep2 from './horsep2.gif'
@@ -12,7 +10,7 @@ import racecource from './racecourse.jpg';
 
 
 function App() {
-  const {ref, playState, getAnimation} = useWebAnimations({
+  const {ref, getAnimation} = useWebAnimations({
     keyframes: [
       {transform: "translateX(0%)"},
       {transform: "translateX(-181%)"}
