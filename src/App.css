@@ -1,38 +1,143 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+/* .horse {
+  position: absolute;
+  margin-left: 10%;
+  top: 12%;
+}
+#horse {
+  width: 500px;
+  
+}
+.horse2 {
+  position: absolute;
+  margin-left: 15%;
+  top: 12%;
+}
+#horse2 {
+  width: 500px;
+  
+} */
+.horse3 {
+  position: absolute;
+  margin-left: 60%;
+  top: 5%;
+}
+#horse3 {
+  width: 500px;
+  
+}
+.horse4 {
+  position: absolute;
+  margin-left: 40%;
+  top: 23%;
+}
+#horse4 {
+  width: 550px;
+  
+}
+.horseR5 {
+  position: absolute;
+  margin-left: 2%;
+  top: 3%;
+}
+#horsedR5 {
+  width: 450px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .horsed3 {
+  position: absolute;
+  margin-left: 2%;
+  top: 3%;
+}
+#horsed3 {
+  width: 450px;
+  
+} */
+.horsep2 {
+  position: absolute;
+  margin-left: 25%;
+  top: -3%;
+}
+#horsep2 {
+  width: 440px;
+  
+}
+/* .horsed4 {
+  position: absolute;
+  margin-left: 25%;
+  top: -3%;
+}
+#horsed4 {
+  width: 440px;
+  
+} */
+
+#background {
+  top: 0;
+  position: absolute;
+  width: 2000px;
+  height: 670px;
+  
+}
+#background2 {
+  top: 0;
+  position: absolute;
+  width: 2500px;
+  height: 670px;
+  margin-left: 2000px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#audiance {
+  position: absolute;
+  margin-top: 320px;
+  width: 750px;
+  height: 410px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+#audiance2{
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 750px;
+  width: 750px;
+  height: 410px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#audiance3{
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 1500px;
+  width: 750px;
+  height: 410px;
+}
+#audiance4{
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 2250px;
+  width: 750px;
+  height: 410px;
+}
+#audiance5{
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 3000px;
+  width: 750px;
+  height: 410px;
+}
+#audiance6{
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 3750px;
+  width: 750px;
+  height: 410px;
 }
